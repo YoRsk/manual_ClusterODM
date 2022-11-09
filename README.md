@@ -43,6 +43,7 @@ cd WebODM
   
 #### 3. nodeodm(optional)
 >same as below,but the nodeodm port maybe is 3001 now,because port 3000 is occupied by clusterodm.  
+>![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/node2.png)
   
   
 ### 2 Node
