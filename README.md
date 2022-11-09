@@ -13,7 +13,7 @@ https://www.opendronemap.org/clusterodm/
 3.[ClusterODM.exe](https://github.com/OpenDroneMap/ClusterODM/releases/tag/v1.5.3)  
 4.[NodeODM.exe](https://github.com/OpenDroneMap/NodeODM/releases) (optional)  
 5.WebODM  
-> enable Docker.exe -> Git Bash -> `git clone https://github.com/OpenDroneMap/WebODM --config core.autocrlf=input --depth 1`  
+> enable Docker.exe -> enable Git Bash -> `git clone https://github.com/OpenDroneMap/WebODM --config core.autocrlf=input --depth 1`  
   
   
 #### 2 Node 
