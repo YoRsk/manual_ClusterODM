@@ -79,8 +79,11 @@ Escape character is '^]'.
   
   
 #### 2. start Mission
-> Mission's parameter  
+> **Mission's parameter**  
+
+  
 > processing node : cluster-odm-ip:port (3000 or others)  
+>   
 > sm-cluster http://cluster-odm-ip:port  
   
   
