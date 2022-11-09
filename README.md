@@ -21,9 +21,9 @@ https://www.opendronemap.org/clusterodm/
 2.[NodeODM.exe](https://github.com/OpenDroneMap/NodeODM/releases)  
   
   
-### Enable softwares
-#### 1 Cluster Host
-##### 1. clusterodm.exe  
+## Enable softwares
+### 1 Cluster Host
+#### 1. clusterodm.exe  
 ![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/cluster1.png)  
   
 Win + R -> cmd -> ``` telnet localhost 8080 ```
@@ -32,7 +32,7 @@ Win + R -> cmd -> ``` telnet localhost 8080 ```
 >![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/telnet1.png)  
   
   
-##### 2. webodm  
+#### 2. webodm  
 enable docker.exe-> Git Bash -> 
 ```
 cd WebODM
@@ -41,16 +41,16 @@ cd WebODM
 -> http://localhost:8000  
 > remember your account please  
   
-##### 3. nodeodm(optional)
+#### 3. nodeodm(optional)
 >same as below,but the nodeodm port maybe is 3001 now,because port 3000 is occupied by clusterodm.  
   
   
-#### 2 Node
+### 2 Node
 Win + R -> cmd -> ``` cd NODEODM'S CATEGORY``` -> ``` nodeodm.exe --odm_path ODM'S CATEGORY ```  
 ![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/node1.png)  
 
-### Operations in Cluster Host
-#### telnet
+## Operations in Cluster Host
+### telnet
 ```send NODE ADD <node-odm-ip-1> 3000 ```
 ```
 $ telnet <cluster-odm-ip> 8080
@@ -69,9 +69,16 @@ Escape character is '^]'.
 > ip: win + R ->cmd -> ipconfig  
 > *All machines must be on one LAN*
 >  
-#### webodm
-##### 1. add node (both NodeODMs and ClusterODM)
-1.input NodeODM ip and port
-![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/webodmnode1.png)
-2.input ClusterODM ip and port
-![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/webodmcluster1.png)
+### webodm
+#### 1. add node (both NodeODMs and ClusterODM)
+1.input NodeODM ip and port  
+![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/webodmnote1.png)  
+  
+2.input ClusterODM ip and port  
+![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/webodmcluster1.png)  
+  
+  
+#### 2. start Mission
+> Mission's parameter
+> processing node : cluster-odm-ip:port (3000 or others)
+> sm-cluster http://cluster-odm-ip:port
