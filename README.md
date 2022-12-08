@@ -52,7 +52,7 @@ Win + R -> cmd -> ``` cd NODEODM'S CATEGORY``` -> ``` nodeodm.exe --odm_path ODM
 
 ## Operations in Cluster Host
 ### telnet
-```send NODE ADD <node-odm-ip-1> 3000 ```
+```send NODE ADD <node-odm-ip-1> 3000 ``` **(necessary)**  
 ```
 $ telnet <cluster-odm-ip> 8080
 Connected to <cluster-odm-ip>.
@@ -91,4 +91,7 @@ Escape character is '^]'.
 Such as
 ![](https://github.com/YoRsk/ClusterODM-manual/blob/main/images/webodmmission1.png)
 ## Notions
-WebODM create account :http://localhost:8000/welcome/  
+1.WebODM create account :http://localhost:8000/welcome/  
+2.Windows features -> check *Hyper-V*,*Telnet CLient*,*Virtual Machine Platform*  
+3.When it shows **docker desktop stopped**,you should update Wsl and restart the application  
+4.If your images are too many, you could modify the storage space ect.. by docker -> setting -> General -> uncheck **Use the WSL 2 based engine** -> Resources
