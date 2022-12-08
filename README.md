@@ -68,7 +68,7 @@ Escape character is '^]'.
 3) <node-odm-in cluster host-ip-3>:3000 [online] [0/2] <version 1.5.1>
 ```
 > ip: win + R ->cmd -> ipconfig  
-> *All machines must be on one LAN*
+> 
 >  
 ### webodm
 #### 1. add node (both NodeODMs and ClusterODM)
