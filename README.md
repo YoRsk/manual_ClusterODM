@@ -5,7 +5,7 @@ for Windows system
 [ClusterODM](https://github.com/OpenDroneMap/ClusterODM)  
 [Distributed split-merge](https://docs.opendronemap.org/large/?highlight=distributed#getting-started-with-distributed-split-merge)  
 https://www.opendronemap.org/clusterodm/  
-## Prepare beforehand 事前准备
+## Prepare beforehand 
 ### Download
 #### 1 Cluster Host
 1.[Docker.exe](https://www.docker.com/)  
